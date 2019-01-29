@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 10%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+#image,#ajith,#vjs,#vijay{
+  opacity: 1;
+  display: block;
+  width: 50%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+<div class="row">
+  <div class="column">
+    <img src="index.jpg" alt="RAJNI" id="image" style="width:110%" onclick="on1()">
+ <div id="middle">
+    <div id="text">Rajni</div>
+  </div>  
+</div>
+  <div class="column">
+    <img src="ajith.jpg" alt="AJITH" id="ajith" style="width:100%" onclick="on2()">
+   <div id="middle1">
+    <div id="text1">Ajith</div>
+  </div> 
+</div>
+  <div class="column">
+    <img src="vjs.jpg" alt="VIJAY SETHUPATHI" id="vjs" style="width:75%" onclick="on3()">
+<div id="middle2">
+    <div id="text2">Vijay Sethupathi</div>
+  </div>  
+</div>
+<div class="column">
+    <img src="vijay.jpg" alt="VIJAY" id="vijay" style="width:150%" onclick="on4()">
+<div id="middle3">
+    <div id="text3">Vijay</div>
+  </div>  
+</div>
+</div>
+</div>
+<script>
+function off1()
+{document.getElementById("image").style.opacity = "1";
+}
+
+function off2()
+{document.getElementById("ajith").style.opacity = "1";
+}
+
+
+function off3()
+{document.getElementById("vjs").style.opacity = "1";
+}
+function off4()
+{document.getElementById("vijay").style.opacity = "1";
+}
+function on1() {
+  document.getElementById("image").style.opacity = "0.3";
+  //document.getElementById("middle").style.opacity = "1";
+   off2();
+   off3();
+   off4();
+}
+
+function on2() {
+  document.getElementById("ajith").style.opacity = "0.3";
+  //document.getElementById("middle1").style.opacity = "1";
+  off1();
+  off3();
+  off4();
+}
+
+function on3() {
+  document.getElementById("vjs").style.opacity = "0.3";
+  //document.getElementById("middle1").style.opacity = "1";
+  off1();
+  off2();
+  off4();
+}
+
+function on4() {
+  document.getElementById("vijay").style.opacity = "0.3";
+  //document.getElementById("middle1").style.opacity = "1";
+  off1();
+  off2();
+  off3();
+}
+</script>
+
+</body>
+</html>
