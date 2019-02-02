@@ -1,0 +1,81 @@
+
+.container {
+  position: relative;
+  width:15.8%;
+  height:13%;
+float:left;
+
+}
+.container1 {
+  position: relative;
+  width:20%;
+  height:13%;
+float:left;
+
+}
+#grad{
+	height: 500%;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#F79F79,#F7D08A,#E3F09B,#87B6A7,#5B5941); /* Standard syntax (must be last) */
+}
+	
+
+#vishnu,#kathir,#vjs,#vijay,#danush,#simbu,#imaikkanodigal,#raatchasan,#96,#2.0,#pariyerumperumal,#vadachennai,#trisha,#nayan,#samantha,#ks,#aj,#ar,#yuvan,#govind,#hht,#santhosh,#imman,#ghibran,#robo,#yodi,#sathish,#soori,#munish,#thambi,#shankar,#ramkumar,#prem,#vetrimaran,#ajay{
+  opacity: 1;
+  display: block;
+  width: 60%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+#middle,#middle1,#middle2,#middle3,#middle4,#middle5 ,#middle6 ,#middle7,#middle8,#middle9,#middle10,#middle11,#middle12,#middle13,#middle14,#middle15,#middle16,#middle17,#middle18,#middle19,#middle20,#middle21,#middle22,#middle23,#middle24,#middle25,#middle26,#middle27,#middle28,#middle29,#middle30,#middle31,#middle32,#middle33,#middle34 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 70%;
+  left: 30%;
+  transform: translate(-30%, -30%);
+  -ms-transform: translate(-30%, -30%);
+  text-align: center;
+}
+#text,#text1,#text2,#text3,#text4,#text5,#text6,#text7,#text8,#text9,#text10,#text11,#text12,#text13,#text14,#text15,#text16,#text17,#text18,#text19,#text20,#text21,#text22,#text23,#text24,#text25,#text26,#text27,#text28,#text29,#text30,#text31,#text32,#text33,#text34{
+ 
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+
+}
+#vote:hover{
+	  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#vote{
+	background-color:black;
+	color:white;
+	padding:16px 16px;
+	border-radius:6px;
+}
+	
+
+#text,#text1,#text2,#text3,#text4,#text5{
+	 background-color: #4CAF50;
+}
+
+#text6,#text7,#text8,#text9,#text10,#text11{
+	 background-color:red;
+}
+#text12,#text13,#text14,#text15,#text16,#text17{
+	 background-color: blue;
+}
+#text18,#text19,#text20,#text21,#text22,#text23{
+	 background-color: black;
+}
+
+#text28,#text29,#text27,#text26,#text25,#text24{
+	 background-color: yellow;
+	 color:black;
+}
+#text30,#text31,#text32,#text33,#text34{
+	 background-color: pink;
+	 color:black;
+}
